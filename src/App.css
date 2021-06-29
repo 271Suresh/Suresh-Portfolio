@@ -6,11 +6,18 @@ body{
 
 :root {
   --primary-black: #0A1931;
-  --primary-blue:#4070F4;
+  --primary-blue:#47c2f7;
   --primary-light: #ffffff;
+  --primery-orange:#f9ab00;
 }
 
+
+
 /******************************** MEV MENU LINKS *********************************/
+nav{
+  z-index:2;
+}
+
 
 nav a.nav-link {
   font-weight: 500;
@@ -18,18 +25,27 @@ nav a.nav-link {
   cursor: pointer;
 }
 
+/* .navbar{
+  box-shadow: 0px 1px 10px rgb(202, 202, 202);
+} */
 
 nav a.navbar-brand {
   height: 3rem;
   font-weight: 500;
   font-size: 1.5rem;
+  margin-left: 8rem;
+}
+@media(max-width: 768px){
+  nav a.navbar-brand {
+    margin-left: 7.5rem;
+  }
 }
 nav a.navbar-brand:hover{
   color:orange !important;
 }
-/* nav ul.navbar-nav{
-  margin-right: 10rem;
-} */
+nav ul.navbar-nav{
+  margin-right: 5rem;
+}
 
 .navbar-nav > li > a {
   margin-right: 0.75rem;
@@ -38,10 +54,100 @@ nav a.navbar-brand:hover{
   border-bottom: 0.1875rem solid var(--primary-light);
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-bottom: 0.1875rem solid var(--primary-blue);
 }
 
 .navbar-nav > li > a:hover{
   border-bottom: 0.1875rem solid var(--primary-blue);
 }
+
+/******************************** HEADER *********************************/
+
+.header-wraper{
+  position:relative;
+  background: url(back.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+}
+.main-info{
+  display: flex;
+  position:absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left:0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: poppins;
+  z-index: 1;
+}
+
+.main-info h1{
+  color: var(--primery-orange);
+  
+}
+
+
+
+/******************************** TYPED TEXT *********************************/
+
+.typed-text{
+  font-size:2rem;
+  color: var(--primary-light);
+}
+
+@media(max-width: 768px){
+  .main-info h1{
+    font-size: 1.5rem !important;
+  }
+  .typed-text{
+    font-size: 1.3rem !important;
+  }
+}
+
+/******************************** HEADER MAIN OFFER BUTTON *********************************/
+.button{
+  display: inline-block;
+  background-color: var(--primary-light);
+  color: rgb(0, 0, 0);
+  padding: .75rem 2.5rem;
+  font-weight: 600;
+  border-radius: .5rem;
+  text-decoration: none;
+}
+.button:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  text-decoration: none;
+  background-color: var(--primary-blue);
+  color: var(--primary-light);
+}
+
+
+/******************************** PARTICLES JS *********************************/
+.tsparticles-canvas-el
+{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* .pic{
+  width:40%;
+}
+
+
+.home__title {
+  font-size: 300%;
+  font-weight: bold;
+  font-family: poppins;
+  margin-top: 12rem;
+  margin-left: 15.2rem;
+}
+.home__title-color{
+  color: var(--primary-blue);
+} */
