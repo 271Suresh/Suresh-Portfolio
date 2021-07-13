@@ -3,10 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Particles from 'react-particles-js';
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Achievement from "./components/Achievement";
+// import Cards from "./components/Cards";
 
 function App() {
   return (
     <>
+    <Navbar/>
       <Particles
       className="particles-canvas"
         params={{
@@ -28,8 +34,13 @@ function App() {
           }
         }}
       />
-      <Navbar/>
       <Header/>
+      <About/>
+      
+      <Projects/>
+      {/* <Cards/> */}
+      <Achievement/>
+      <Skills/>
     </>
   );
 }
