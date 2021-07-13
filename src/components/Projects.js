@@ -2,6 +2,10 @@ import React from 'react'
 import img20 from "../img20.jpg"
 import img21 from "../img21.jpg"
 import img22 from "../img22.jpg"
+import motor from "../motor.png"
+import foodie from "../foodie.png"
+import flight from "../flight.png"
+import th from "../LOGO2.png"
 
 export const Projects = () => {
     return (
@@ -13,10 +17,21 @@ export const Projects = () => {
                 <div className="col-sm">
                   <div class="card">
                   <div className="overflow">
-                    <img src={img20} class="card-img-top" alt="..."/></div>
+                    <img src={motor} class="card-img-top" alt="..."/></div>
                     <div class="card-body">
-                      <h5 class="card-title">First Project</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Motor - Aid</h5>
+                      <p class="card-text">Vehicle Emergency Service System</p>
+                      <a href="https://github.com/271Suresh/Motor-Aid-Vehicle-Emergency-Service" class="card-button">View</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm">
+                  <div class="card">
+                  <div className="overflow">
+                    <img src={foodie} class="card-img-top" alt="..."/></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Foodie</h5>
+                      <p class="card-text">A Food Delivery System</p>
                       <a href="#" class="card-button">Go somewhere</a>
                     </div>
                   </div>
@@ -24,10 +39,10 @@ export const Projects = () => {
                 <div className="col-sm">
                   <div class="card">
                   <div className="overflow">
-                    <img src={img21} class="card-img-top" alt="..."/></div>
+                    <img src={th} class="card-img-top" alt="..."/></div>
                     <div class="card-body">
-                      <h5 class="card-title">Sceond Project</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">The Tech Hub</h5>
+                      <p class="card-text">PC Building System</p>
                       <a href="#" class="card-button">Go somewhere</a>
                     </div>
                   </div>
@@ -35,22 +50,11 @@ export const Projects = () => {
                 <div className="col-sm">
                   <div class="card">
                   <div className="overflow">
-                    <img src={img22} class="card-img-top" alt="..."/></div>
+                    <img src={flight} class="card-img-top" alt="..."/></div>
                     <div class="card-body">
-                      <h5 class="card-title">Third Project</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-button">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm">
-                  <div class="card">
-                  <div className="overflow">
-                    <img src={img22} class="card-img-top" alt="..."/></div>
-                    <div class="card-body">
-                      <h5 class="card-title">Third Project</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-button">Go somewhere</a>
+                      <h5 class="card-title">FlyAir</h5>
+                      <p class="card-text">Airline Booking System</p>
+                      <a href="#" class="card-button">View</a>
                     </div>
                   </div>
                 </div>

@@ -39,8 +39,8 @@ function App() {
       
       <Projects/>
       {/* <Cards/> */}
-      <Achievement/>
-      <Skills/>
+      {/* <Achievement/>
+      <Skills/> */}
     </>
   );
 }
