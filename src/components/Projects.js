@@ -13,7 +13,7 @@ export const Projects = () => {
           <div id="portfolio" className="container">
             <div className="info">
               <div className="row">
-              <h1 className="title">Portfolio</h1>
+              <h1 className="title">Projects</h1>
                 <div className="col-sm">
                   <div class="card">
                   <div className="overflow">
@@ -21,7 +21,7 @@ export const Projects = () => {
                     <div class="card-body">
                       <h5 class="card-title">Motor - Aid</h5>
                       <p class="card-text">Vehicle Emergency Service System</p>
-                      <a href="https://github.com/271Suresh/Motor-Aid-Vehicle-Emergency-Service" class="card-button">View</a>
+                      <a target="_blank" href="https://github.com/271Suresh/Motor-Aid-Vehicle-Emergency-Service" class="card-button">View</a>
                     </div>
                   </div>
                 </div>
@@ -32,7 +32,7 @@ export const Projects = () => {
                     <div class="card-body">
                       <h5 class="card-title">Foodie</h5>
                       <p class="card-text">A Food Delivery System</p>
-                      <a href="#" class="card-button">Go somewhere</a>
+                      <a target="_blank" href="https://github.com/271Suresh/Foodie" class="card-button">View</a>
                     </div>
                   </div>
                 </div>
@@ -43,7 +43,7 @@ export const Projects = () => {
                     <div class="card-body">
                       <h5 class="card-title">The Tech Hub</h5>
                       <p class="card-text">PC Building System</p>
-                      <a href="#" class="card-button">Go somewhere</a>
+                      <a target="_blank" href="https://github.com/271Suresh/TheTechHub" class="card-button">View</a>
                     </div>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ export const Projects = () => {
                     <div class="card-body">
                       <h5 class="card-title">FlyAir</h5>
                       <p class="card-text">Airline Booking System</p>
-                      <a href="#" class="card-button">View</a>
+                      <a target="_blank" href="https://github.com/271Suresh/AirlineBookingSystem" class="card-button">View</a>
                     </div>
                   </div>
                 </div>

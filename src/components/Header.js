@@ -8,16 +8,16 @@ const Header = () => {
             <div className="main-info">
                 {/* <h1 className="home__title">Hi,<br/>I'am <span className="home__title-color">Suresh</span><br/> Programmer</h1>
                 <img className="pic" src={pic} alt="pic.."/> */}
-                <h1>Hi, I am </h1>
+                <h1>Hi, I am</h1>
                 <Typed
                     className="typed-text"
                     strings={["SURESH", "SUTHAR"]}
-                    typeSpeed={60}
+                    typeSpeed={40}
                     backSpeed={60}
                     loop
                 />
                 <br/>
-                <h1>Welcome to my Portfolio</h1>
+                <h1>I love Experimenting with web</h1>
                 {/* <a href="#" class="button">Contact</a> */}
                 
             </div>

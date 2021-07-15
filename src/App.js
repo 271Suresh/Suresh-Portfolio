@@ -7,6 +7,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Achievement from "./components/Achievement";
+import Footer from './components/Footer';
 // import Cards from "./components/Cards";
 
 function App() {
@@ -39,8 +40,9 @@ function App() {
       
       <Projects/>
       {/* <Cards/> */}
-      {/* <Achievement/>
-      <Skills/> */}
+      {/* <Achievement/> */}
+      <Skills/>
+      <Footer/>
     </>
   );
 }
