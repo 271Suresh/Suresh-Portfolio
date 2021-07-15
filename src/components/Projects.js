@@ -1,7 +1,4 @@
 import React from 'react'
-import img20 from "../img20.jpg"
-import img21 from "../img21.jpg"
-import img22 from "../img22.jpg"
 import motor from "../motor.png"
 import foodie from "../foodie.png"
 import flight from "../flight.png"
