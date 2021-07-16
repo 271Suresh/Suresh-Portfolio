@@ -11,8 +11,9 @@ export const Projects = () => {
             <div className="info">
               <div className="row">
               <h1 className="title">Projects</h1>
+              {/* <div className="cards-container"> */}
                 <div className="col-sm">
-                  <div className="card">
+                  <div className="cards">
                   <div className="overflow">
                     <img src={motor} className="card-img-top" alt="..."/></div>
                     <div className="card-body">
@@ -23,7 +24,7 @@ export const Projects = () => {
                   </div>
                 </div>
                 <div className="col-sm">
-                  <div className="card">
+                  <div className="cards">
                   <div className="overflow">
                     <img src={foodie} className="card-img-top" alt="..."/></div>
                     <div className="card-body">
@@ -34,7 +35,7 @@ export const Projects = () => {
                   </div>
                 </div>
                 <div className="col-sm">
-                  <div className="card">
+                  <div className="cards">
                   <div className="overflow">
                     <img src={th} className="card-img-top" alt="..."/></div>
                     <div className="card-body">
@@ -45,7 +46,7 @@ export const Projects = () => {
                   </div>
                 </div>
                 <div className="col-sm">
-                  <div className="card">
+                  <div className="cards">
                   <div className="overflow">
                     <img src={flight} className="card-img-top" alt="..."/></div>
                     <div className="card-body">
@@ -55,6 +56,7 @@ export const Projects = () => {
                     </div>
                   </div>
                 </div>
+                {/* </div> */}
               </div>
             </div>
           </div>

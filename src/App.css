@@ -171,21 +171,22 @@ nav ul.navbar-nav{
   border-radius: .5rem;
   text-decoration: none;
 }
-.card{
+.cards{
   width:20rem;
   box-shadow: 3px 2px 15px rgb(202, 202, 202);
   border-radius: 10px;
 }
 
 .col-sm{
-  margin: 0% 3% 0% 3%;
   padding-top: 2%;
+  margin-left: 5%;
 }
 
-@media(max-width: 768px){
+@media(max-width: 468px){
   .col-sm{
-    margin: 0% 3% 0% 3%;
+    margin-left: 0%;
   }
+
 }
 
 .card:hover{
