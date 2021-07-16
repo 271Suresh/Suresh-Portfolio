@@ -178,8 +178,14 @@ nav ul.navbar-nav{
 }
 
 .col-sm{
-  /* margin-left: 5%; */
+  margin: 0% 3% 0% 3%;
   padding-top: 2%;
+}
+
+@media(max-width: 768px){
+  .col-sm{
+    margin: 0% 3% 0% 3%;
+  }
 }
 
 .card:hover{

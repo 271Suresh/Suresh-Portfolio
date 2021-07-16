@@ -18,7 +18,6 @@ const Header = () => {
                 />
                 <br/>
                 <h1>I love Experimenting with web</h1>
-                {/* <a href="#" class="button">Contact</a> */}
                 
             </div>
         </div>
