@@ -5,7 +5,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
     return (
       <>
-      <div className="se"></div>
       <header className="mobileNav">
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
           <div className="container">
